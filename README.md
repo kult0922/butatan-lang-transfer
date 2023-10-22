@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+日本語 -> ぶたたん語 変換ツールです。
 
-## Getting Started
+こちらで公開しています。
 
-First, run the development server:
+# ぶたたん語とは
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[すあだちゃんねる](https://www.youtube.com/@suadachannel)の<span className="text-pink-400">ぶたたん</span>が使っている言語。
+ぶたたん語日本語を元にした言語であるが、使うひらがなの種類が日本語より少ない。
+ぶたたん語講座に登場したバズ・ライトイヤーさんが
+「日本語の入門として外国人にもおすすめ」
+と言っている。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 参考
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[すあだちゃんねる](https://www.youtube.com/@suadachannel)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[ぶたたん語講座](https://www.youtube.com/watch?v=R0lkT2iUR2s)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[ぶたたん語講座 上級編](https://www.youtube.com/watch?v=A5mpnfdmO7A)

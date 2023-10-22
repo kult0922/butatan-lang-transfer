@@ -1,6 +1,6 @@
-import { toKana, toRomaji } from "wanakana";
+import { toKana, toRomaji, toHiragana } from "wanakana";
 
-export const butatanLangToJapanese = (japanese: string) => {
+export const japaneseToButatanLang = (japanese: string) => {
   const customRomajiMapping = {
     し: "si",
     つ: "tu",
@@ -22,7 +22,10 @@ export const butatanLangToJapanese = (japanese: string) => {
     じょ: "zyo",
   };
 
-  const roma = toRomaji(japanese, { customRomajiMapping });
+  const hiragana = toHiragana(japanese);
+  console.log("hiragana", hiragana);
+
+  const roma = toRomaji(hiragana, { customRomajiMapping });
   console.log("roma", roma);
 
   const butatanRoma = removeRandY(replaceItoE(replaceStoT(roma)));
@@ -47,5 +50,9 @@ const replaceStoT = (str: string) => {
 };
 
 const beNative = (str: string) => {
-  return str.replace(/ti/g, "thi").replace(/tu/g, "twu").replace(/du/, "dwu").replace(/zi/g, "dhi");
+  return str
+    .replace(/ti/g, "thi")
+    .replace(/tu/g, "twu")
+    .replace(/du/, "dwu")
+    .replace(/zi/g, "dhi");
 };

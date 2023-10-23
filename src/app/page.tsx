@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex justify-center">
       <div>
         <div className="m-4 text-center text-2xl text-pink-500">
-          ぶたたん語翻訳
+          ぶたたん翻訳
         </div>
         <Transfer />
         <Description />

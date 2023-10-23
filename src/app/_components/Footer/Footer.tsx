@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="flex justify-center">
           <div>
             <a
-              href="https://github.com/kult0922/minecraftDot"
+              href="https://github.com/kult0922/butatan-lang-transfer"
               target="_blank"
               className="underline decoration-solid"
               rel="noreferrer"
